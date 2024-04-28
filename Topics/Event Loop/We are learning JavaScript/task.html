@@ -1,0 +1,48 @@
+<div class="step-text">
+<p></p>
+<p>Your task here is to pick a script which prints a phrase "We are learning JavaScript" into the console:</p>
+<p>A)</p>
+<pre><code class="language-javascript">function func(){
+  queueMicrotask(() =&gt; console.log("We are"));
+  console.log("abc");
+}
+
+console.log("learning");
+Promise.resolve().then(() =&gt; func());
+console.log("JavaScript");</code></pre>
+<p>B)</p>
+<pre><code class="language-javascript">function func(){
+  console.log("JavaScript");
+  queueMicrotask(() =&gt; console.log("learning"));
+}
+
+console.log("We");
+console.log("are");
+Promise.resolve().then(() =&gt; func());</code></pre>
+<p>C)</p>
+<pre><code class="language-javascript">function func(){
+  queueMicrotask(() =&gt; console.log("JavaScript"))
+}
+
+function func1(){
+  func2();
+  setTimeout(func());
+  console.log("are");
+}
+
+function func2(){
+  Promise.resolve().then(() =&gt; console.log("learning"));
+  console.log("We");
+}
+
+func1();</code></pre>
+<p>D)</p>
+<pre><code class="language-javascript">function func(){
+  console.log("JavaScript");
+}
+
+console.log("We");
+setTimeout(func());
+queueMicrotask(() =&gt; console.log("are"));
+Promise.resolve().then(() =&gt; console.log("learning"));</code></pre>
+</div>

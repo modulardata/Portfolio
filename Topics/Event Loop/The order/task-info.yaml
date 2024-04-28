@@ -1,0 +1,20 @@
+type: sorting
+options:
+  - Second block
+  - Fifth block
+  - First block
+  - Third block
+  - Fourth block
+files:
+  - name: main.js
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12466#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4

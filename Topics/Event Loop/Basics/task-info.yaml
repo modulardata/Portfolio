@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: queueMicrotask(func) is a function which allows to immediately handle the
+      function from microtasks queue.
+  - text: The oldest macrotask will be handled first.
+  - text: Page changes are rendered between microtasks.
+  - text: The newest microtask will be handled first.
+  - text: "While there are no new tasks, the browser waits for them."
+files:
+  - name: main.js
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/12464#comment
+status: Solved
+record: -1
+local_check: false
