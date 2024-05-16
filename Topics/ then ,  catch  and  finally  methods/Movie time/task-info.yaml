@@ -1,12 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-  - text: ".then to handle a positive result, .catch to handle a negative result"
-  - text: ".then with two arguments: a function to handle a positive result, and another\
-    \ to handle a negative result"
-  - text: ".finally to handle a positive result, .then to handle a negative result"
-  - text: ".then to handle a positive result, .finally to handle a negative result"
-  - text: ".finally to handle a positive result, .catch to handle a negative result"
+is_multiple_choice: false
 files:
   - name: main.js
     visible: true

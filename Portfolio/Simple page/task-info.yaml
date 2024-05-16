@@ -19,11 +19,8 @@ files:
     is_binary: true
     learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11307#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Error: Wrong answer in test #2
-
-    Can't find two h2 elements. Your web page should have at least two h2 elements at this stage. There are only 1.
-  time: "Sun, 28 Apr 2024 20:06:14 UTC"
+  message: Congratulations!
+  time: "Thu, 16 May 2024 10:06:28 UTC"
 record: -1

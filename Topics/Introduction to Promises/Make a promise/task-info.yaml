@@ -1,11 +1,4 @@
 type: sorting
-options:
-  - ' resolve(value);'
-  - '  reject(error);'
-  - " } });"
-  - " } else {"
-  - " if (valueIsCorrect) {"
-  - "let promise = new Promise(function(resolve, reject) {"
 files:
   - name: main.js
     visible: true
@@ -13,10 +6,3 @@ files:
 feedback_link: https://hyperskill.org/learn/step/9982#comment
 status: Solved
 record: -1
-ordering:
-  - 0
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5

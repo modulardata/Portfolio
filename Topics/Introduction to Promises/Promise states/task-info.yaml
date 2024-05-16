@@ -1,12 +1,4 @@
 type: matching
-captions:
-  - rejected
-  - pending
-  - fulfilled
-options:
-  - the initial state
-  - a promise has resolved
-  - a promise has rejected
 files:
   - name: main.js
     visible: true
@@ -14,7 +6,3 @@ files:
 feedback_link: https://hyperskill.org/learn/step/9984#comment
 status: Solved
 record: -1
-ordering:
-  - 0
-  - 1
-  - 2

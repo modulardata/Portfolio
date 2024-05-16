@@ -3,11 +3,11 @@ hyperskill_project:
   ide_files: https://cogniterra.org/media/attachments/lesson/25198/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: "Sun, 28 Apr 2024 19:57:35 UTC"
+update_date: "Thu, 16 May 2024 09:31:18 UTC"
 stages:
   - id: 730
     step: 11307
-    is_completed: false
+    is_completed: true
   - id: 731
     step: 11308
     is_completed: false
@@ -30,8 +30,6 @@ topics:
       theory_id: 9237
     - title: The lang attribute
       theory_id: 12212
-    - title: HTML basics
-      theory_id: 6434
     - title: Tags and Attributes
       theory_id: 7536
     - title: HTML page structure

@@ -1,8 +1,5 @@
-const isCorrectText = true;
-// write your function here
+const checkingText = (status) => {
+    // write your code here
 
-let checkingText = new Promise(function (resolve) {
-    if (isCorrectText) {
-        resolve("Your text is correct");
-    }
-});
+
+}

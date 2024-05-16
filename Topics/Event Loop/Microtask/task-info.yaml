@@ -1,10 +1,5 @@
 type: choice
-is_multiple_choice: true
-options:
-  - text: A
-  - text: B
-  - text: C
-  - text: D
+is_multiple_choice: false
 files:
   - name: main.js
     visible: true
