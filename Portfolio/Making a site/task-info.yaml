@@ -6,6 +6,21 @@ files:
   - name: test/test.js
     visible: false
     learner_created: false
+  - name: src/img/project2.png
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/person.jpg
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/project1.png
+    visible: true
+    is_binary: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11308#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 17 May 2024 05:28:39 UTC"
 record: -1
