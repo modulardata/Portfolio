@@ -6,6 +6,45 @@ files:
   - name: test/test.js
     visible: false
     learner_created: false
+  - name: src/img/project2.png
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/person.jpg
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/project1.png
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/css/style.css
+    visible: true
+    learner_created: true
+  - name: src/img/bg.jpg
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/instagram 1.svg
+    visible: true
+    learner_created: true
+  - name: src/img/github.svg
+    visible: true
+    learner_created: true
+  - name: src/img/image.jpg
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/person.jpeg
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/img/facebook.svg
+    visible: true
+    learner_created: true
+  - name: src/img/twitter.svg
+    visible: true
+    learner_created: true
 feedback_link: https://hyperskill.org/learn/step/11309#comment
 status: Unchecked
 record: -1
